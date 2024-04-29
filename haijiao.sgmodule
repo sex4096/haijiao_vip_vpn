@@ -1,8 +1,8 @@
-#!name=海角社区(haijiao.com) - 解锁收费视频,VIP,去广告 Surge|QuantumultX 模块
-#!desc=主项目:https://github.com/sex4096/haijiao_vip
+#!name=海角社区(haijiao.com) 
+#!desc=解锁收费视频,VIP,去广告
 
 [Script]
 haijiao-vip = type=http-response,pattern="^https?:\/\/haijiao.com\/*",requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/sex4096/haijiao_vip_vpn/master/haijiao.js,script-update-interval=3600
 
 [MITM]
-hostname = %APPEND% haijiao.com
+hostname = %APPEND%,haijiao.com
