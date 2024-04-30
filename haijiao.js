@@ -1,3 +1,14 @@
+/*
+
+************************
+QuantumultX :
+************************
+
+[rewrite_remote]
+https://raw.githubusercontent.com/sex4096/haijiao_vip_vpn/master/haijiao.conf, tag=Haijiao Vip, update-interval=3600, opt-parser=false, enabled=true
+
+*/
+
 let headers = $response.headers;
 let url = $request.url;
 const dependencies = [
